@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.fondo {
+  background-image: url(https://restauracionnews.com/wp-content/uploads/2020/10/2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 18%;
+}
+
+.subtituloPrincipal {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Abhaya Libre", serif;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  height: 100%;
+}
+
+.boton {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: "Abhaya Libre", serif;
+  font-family: "Bebas Neue", cursive;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 50px;
+}
+
+footer {
+  width: 100%;
+  padding: 30px 10px;
+  grid-area: "footer";
+}
+
+.containerFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Abhaya Libre", serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Work Sans", sans-serif;
+  margin-top: -30px;
+}
+
+.boxFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.fondoMenu {
+  background-image: url(https://pbs.twimg.com/media/E8CzWkfX0BI68hC?format=jpg&name=4096x4096);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.espacioMenu {
+  padding-bottom: 600px;
+}
+
+.tituloMenu {
+  color: black;
+  font-family: "Abhaya Libre", serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  font-size: 80px;
+  width: 100%;
+  height: 100%;
+}
+
+.delivery {
+  background-color: black;
+  padding-bottom: 200px;
+  padding-top: 50px;
+  border: yellow 10px solid;
+}
+
+.tituloDelivery {
+  color: white;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-size: 70px;
+}
+
+.botonDelivery {
+  color: black;
+  background-color: rgb(255, 255, 0);
+  padding: 30px;
+  border-radius: 70px;
+  font-family: "Abhaya Libre", serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Work Sans", sans-serif;
+  font-size: 40px;
+}
+
+.fondoNosotros {
+  background-color: black;
+  padding-top: 100px;
+}
+
+.tituloNosotros {
+  color: white;
+  padding-bottom: 100px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+}
+
+.subtituloNosotros {
+  color: black;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.direccionLocal {
+  color: black;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.menuNavegacion {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  margin: 20px 30px 50px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.enlaces li {
+  list-style: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.enlaces a {
+  text-transform: none;
+  color: black;
+  padding-left: 10px;
+}
+
+.containerMenu {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 256px;
+  justify-content: space-around;
+  border: 10px solid black;
+  background-color: black;
+}
+
+.imagen1 {
+  background-image: url(https://images.rappi.com.ar/products/2fb37cb4-9873-4925-9caa-f27e58ddae61-1599769547783.png?d=128x90);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.imagen2 {
+  background-image: url(https://images.rappi.com.ar/restaurants_background/985592c3-1500-4225-8a9b-092ad711b2d2-1600087147361.png?d=200x200);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.imagen3 {
+  background-image: url(https://images.rappi.com.ar/products/1115618-1595880595681.png?d=128x90);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.imagen4 {
+  background-image: url(https://images.rappi.com.ar/products/1115622-1595880612600.png?d=128x90);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.imagen5 {
+  background-image: url(https://elcrucechauchina.com/wp-content/uploads/2020/11/icono-hamburguesas.jpg);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.imagen6 {
+  background-image: url(https://www.toque.com.ar/sistema/uploads/571/articulos/605139341961.jpg);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.listaHamburguesas {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 226px;
+  justify-content: space-around;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background: orange;
+}
+
+.imagenMenu1 {
+  background-image: url(../imagenes/hamburguesa1.jpg);
+  background-size: 340px 226px;
+  background-repeat: no-repeat;
+  border: 5px solid black;
+}
+
+.imagenMenu2 {
+  background-image: url(../imagenes/hamburguesa2.jpg);
+  background-size: 340px 226px;
+  border: 5px solid black;
+  background-repeat: no-repeat;
+}
+
+.imagenMenu3 {
+  background-image: url(../imagenes/hamburguesa3.jpg);
+  background-size: 340px 226px;
+  border: 5px solid black;
+  background-repeat: no-repeat;
+}
+
+.logosNosotros {
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  grid-template-rows: 256px;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.logo1 {
+  background-image: url(https://i.pinimg.com/originals/3b/21/c7/3b21c7efd2ba9c119fb8d361acacc31d.png);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.logo2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.logo3 {
+  background-image: url(http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png);
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+}
+
+.containerPrincipalHome {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  display: grid;
+  grid-area: "header";
+}
+
+main {
+  grid-area: "main";
+  display: grid;
+}
+
+img {
+  max-width: 100%;
+}
